@@ -6,20 +6,20 @@ Python soubor sloužící jako pomocník ke trasování při volání balíčků
 
 ######################################################
 
-def start_pack(name: str) -> str:
+def start_pack(name: str) -> None:
     """
     Vstupuje do py souboru __init__
     :param name: name
     :return: str
     """
-    return f"právě se vstoupilo do balíčku {name}"\
-           "\n\n###############################################"
+    print(f"právě se vstoupilo do balíčku {name}"\
+           "\n\n###############################################")
 
-def stop_pack(name: str) -> str:
+def stop_pack(name: str) -> None:
     """
     Vystupuje z py souboru __init__
     :param name: name
     :return: str
     """
-    return f"právě se ukončilo procházení balíčku {name}" \
-           "\n\n###############################################"
+    print(f"právě se ukončilo procházení balíčku {name}" \
+           "\n\n###############################################")

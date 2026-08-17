@@ -4,5 +4,8 @@ Hlavní logika
 """
 
 ############################################################################
+import debug
 
 print("Jmenuji se Robin")
+
+debug.start_pack(__name__)
