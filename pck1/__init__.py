@@ -5,3 +5,8 @@ Inicializační soubor pck1
 
 ##############################################################
 
+import debug
+
+debug.start_pack(__name__)
+
+debug.stop_pack(__name__)

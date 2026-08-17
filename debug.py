@@ -12,7 +12,8 @@ def start_pack(name: str) -> str:
     :param name: name
     :return: str
     """
-    return f"právě se vstoupilo do balíčku {name}"
+    return f"právě se vstoupilo do balíčku {name}"\
+           "\n\n###############################################"
 
 def stop_pack(name: str) -> str:
     """
@@ -20,4 +21,5 @@ def stop_pack(name: str) -> str:
     :param name: name
     :return: str
     """
-    return f"právě se ukončilo procházení balíčku {name}"
+    return f"právě se ukončilo procházení balíčku {name}" \
+           "\n\n###############################################"
