@@ -4,12 +4,13 @@ Hlavní logika
 """
 
 ############################################################################
-import debug
+# Výpis informací souboru
+def module_info() -> str:
+    return f"{__name__}, {__doc__}"
+print(f"Module info: \n{module_info()}")
 
-print("Jmenuji se Robin")
+############################################################################
+from user import User
+user_1= User(name= "Robin", age= 31, adress= "Staňkov")
+user_2= User(name= "Kačka", age= 27, adress= "Staňkov")
 
-def module_info() -> tuple:
-    return __name__, __doc__
-
-
-print(module_info())
