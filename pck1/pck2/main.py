@@ -8,4 +8,8 @@ import debug
 
 print("Jmenuji se Robin")
 
-debug.start_pack(__name__)
+def module_info() -> tuple:
+    return __name__, __doc__
+
+
+print(module_info())
