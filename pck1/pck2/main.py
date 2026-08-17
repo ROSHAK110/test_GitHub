@@ -14,3 +14,4 @@ from user import User
 user_1= User(name= "Robin", age= 31, adress= "Staňkov")
 user_2= User(name= "Kačka", age= 27, adress= "Staňkov")
 
+print(user_1.name)
