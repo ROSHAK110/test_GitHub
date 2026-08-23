@@ -16,7 +16,10 @@ user_2= User(name= "Kačka", age= 27, adress= "Staňkov")
 
 print(user_1.name)
 print(user_1.age)
+print(user_1.adress)
 print(user_2.name)
 print(user_2.age)
+print(user_1.adress)
 
 # vytvořena branch version3
+
