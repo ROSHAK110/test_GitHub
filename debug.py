@@ -5,6 +5,7 @@ Python soubor sloužící jako pomocník ke trasování při volání balíčků
 """
 
 ######################################################
+import time
 
 def start_pack(name: str) -> None:
     """
@@ -23,3 +24,13 @@ def stop_pack(name: str) -> None:
     """
     print(f"právě se ukončilo procházení balíčku {name}" \
            "\n\n###############################################")
+
+
+def module_name(name):
+    """Tiskne zadaný název modulu"""
+    print(f"Nacházíme se v modulu: {name}\n")
+
+def module_doc(doc):
+    """Tiskne dokumentační komentář modulu"""
+    print(f"Popis modulu:", end="")
+    print(f"{doc}\n")
