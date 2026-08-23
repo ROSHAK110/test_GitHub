@@ -7,7 +7,7 @@ Hlavní logika
 # Výpis informací souboru
 def module_info() -> str:
     return f"{__name__}, {__doc__}"
-# print(f"Module info: \n{module_info()}")
+print(f"Module info: \n{module_info()}")
 
 ############################################################################
 from user import User
