@@ -3,7 +3,6 @@
 Hlavní logika
 """
 
-
 ############################################################################
 # Výpis informací souboru
 def module_info() -> str:
