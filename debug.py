@@ -28,9 +28,8 @@ def stop_pack(name: str) -> None:
 
 def module_name(name):
     """Tiskne zadaný název modulu"""
-    print(f"Nacházíme se v modulu: {name}\n")
+    print(f"Nacházíme se v modulu: {name}")
 
 def module_doc(doc):
     """Tiskne dokumentační komentář modulu"""
-    print(f"Popis modulu:", end="")
-    print(f"{doc}\n")
+    print(f"Popis modulu:" + f"{doc}")

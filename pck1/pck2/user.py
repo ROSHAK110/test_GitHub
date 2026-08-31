@@ -2,7 +2,11 @@
 """
 Třída "User" pro zadání informací uživatele
 """
+
 ##############################################################
+from debug import *
+
+start_pack(__name__)
 
 class User:
     """
@@ -13,3 +17,5 @@ class User:
         self.age = age
         self.adress = adress
 
+
+stop_pack(__name__)
