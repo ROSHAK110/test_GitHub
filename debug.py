@@ -33,3 +33,7 @@ def module_name(name):
 def module_doc(doc):
     """Tiskne dokumentační komentář modulu"""
     print(f"Popis modulu:" + f"{doc}")
+
+def dunder_methods(name):
+    """Vytiskne všechny metody, které leží na objektu"""
+    print(dir(name))
