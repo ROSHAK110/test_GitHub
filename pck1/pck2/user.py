@@ -12,10 +12,10 @@ class User:
     """
     Třída pro zápis dat uživatelů
     """
-    def __init__(self, name, age, adress):
+    def __init__(self, name, age, adress, status):
         self.name = name
         self.age = age
         self.adress = adress
-
+        self.status = status
 
 stop_pack(__name__)
