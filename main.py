@@ -12,3 +12,5 @@ debug.module_name(__name__)
 ############################################################
 print(f"Robinův věk je: {user_1.age}")
 print(f"Robinova adresa je: {user_1.adress}")
+
+# print(dir(user_1))
